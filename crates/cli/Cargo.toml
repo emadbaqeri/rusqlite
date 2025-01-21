@@ -1,0 +1,9 @@
+[package]
+name = "cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "RuSQLite CLI interface"
+
+[dependencies]
+core = { path = "../core" }
