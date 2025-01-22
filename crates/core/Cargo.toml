@@ -1,0 +1,13 @@
+[package]
+name = "core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Core RuSQLite implementation"
+
+[dependencies]
+thiserror.workspace = true
+
+[lib]
+name = "core"
+path = "src/lib.rs"
